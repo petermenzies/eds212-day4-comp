@@ -1,0 +1,53 @@
+---
+title: "My Fancy RMD"
+subtitle: "Some Changes in YAML"
+author: "Peter Menzies"
+output: 
+  html_document:
+    theme: cosmo
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(rmdformats)
+```
+
+# Getting Started
+
+## My First Chapter
+
+### Preface
+
+Something Awesome
+
+```{r}
+a <-  10
+b <- 25
+monkey <- a + b
+```
+
+## Second Chapeter
+
+### A note on something
+
+```{r}
+monkey
+
+b - a
+
+panda <-c (3, 1, 2)
+```
+
+# Diving Deeper
+
+```{r}
+markdown <- "is fun"
+
+markdown
+```
+
